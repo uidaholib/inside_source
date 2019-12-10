@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+<link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
+<meta http-equiv="Content-Language" content="en-us" >
+{% if jekyll.environment == "production" %}
+{% include head/page-meta.html %}
+{% include head/google-analytics.html %}
+{% endif %}
+
+{% if site.data.theme.font-cdn %}{{ site.data.theme.font-cdn }}{% endif %}
+<link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | relative_url }}" type="text/css">
+<script defer src="{{ '/assets/lib/fontawesome-free/js/all.min.js' | relative_url }}"></script>
+{% if layout.gallery == true %}<link rel="stylesheet" href="{{ '/assets/lib/lightgallery/css/lightgallery.min.css' | relative_url }}" type="text/css">{% endif %}
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">
+
+<!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->

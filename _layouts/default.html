@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    {% include head/head.html %}
+  </head>
+  <body>
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    {% include banner.html %}
+    {% include navbar.html %}
+    <main id="maincontent" role="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include foot.html %}
+  </body>
+</html>
