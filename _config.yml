@@ -1,0 +1,41 @@
+# CollectionBuilder 
+# Jekyll Digital Collection Generator
+
+# URL variables
+# site domain 
+url: https://insideidaho.org
+# location on the domain
+# e.g. /digital/hjccc
+baseurl: /
+# repository
+source-code: https://github.com/uidaholib/inside_source
+
+# Site settings
+title: Inside Idaho
+# header and head metadata
+tagline: Idaho's Geospatial Data Clearinghouse
+description: "INSIDE Idaho is the geospatial data clearinghouse for the State of Idaho recognized the the Idaho Geospatial Council - Executive Committee. INSIDE Idaho serves as a data digital library, providing access to, and a context within which to use, geospatial data and information by, for, and about Idaho." 
+email: bgodfrey@uidaho.edu
+# for markup 
+featured-image: "/media/carousel/libraryfall-featured.jpg"
+featured-image-alt: "U of I Library tower in Fall"
+
+# Organization branding
+organization-name: "Digital Initiatives, University of Idaho Library"
+organization-link: https://www.lib.uidaho.edu/digital/
+organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
+organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
+
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# if present, used to add analytics during build
+google-analytics-id: 
+
+# add liquid profiler to id bottlenecks
+# profile: true
+
+exclude: [docs/, Rakefile, README.md, LICENSE]
+
+# compress CSS output
+sass:
+  style: compressed
