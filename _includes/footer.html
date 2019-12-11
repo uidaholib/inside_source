@@ -1,42 +1,49 @@
-<footer class="bg-dark pt-4 container-fluid {% unless page.layout=='map' %}mt-3{% endunless %}">
+<footer class="bg-secondary pt-4 container-fluid {% unless page.layout=='map' %}mt-3{% endunless %}">
 
     <div class="row border-bottom border-white pb-4 mb-2">
 
         <div class="col-md-7  px-4 mt-2">
 
-            <h4><a href="{{ '/' | absolute_url }}" class="text-white">{{ site.title }}</a></h4>
+            <h4><a href="{{ '/' | absolute_url }}" class="text-white display-3">{{ site.title | upcase }}</a></h4>
             <p class="text-white"><small>{{ site.description }}</small></p>
             <ul class="nav nav-pills ">
                 {% for nav in site.data.config-nav %}
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="{{ nav.stub | relative_url }}">{{ nav.display-text }}</a>
+                    <a class="nav-link text-white" href="{{ nav.stub | relative_url }}">{{ nav.display-text }}</a>
                 </li>
                 {% endfor %}
             </ul>
 
         </div>
 
-        <div class="col-md-5 mt-2 text-right">
-
-            <p class="text-right">
+        <div class="col-md-5 mt-2 text-center">
+<h5>Support and hosting provided by: </h5>
+            <p class="text-center my-4">
                 <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                    <img class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} logo">
+                    <img class="img-fluid col-12 col-md-6" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} logo">
                 </a>
             </p>
-            <p class="text-white" id="footer-credits">
-                <small><em>built with</em>
-                    <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
-                        <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder logo" >
-                    </a>
-                </small>
+            <p class="text-center my-4">
+                <a href="https://www.northwestknowledge.net/home" target="_blank" rel="noopener">
+                    <img class="img-fluid col-12 col-md-6" src="https://www.northwestknowledge.net/sites/default/files/ui-nkn-logo-hz.png" alt="Northwest Knowledge Network logo">
+                </a>
             </p>
+            
 
         </div>
 
     </div>
 
     <div class="col-md-12 text-center pt-3 pb-1">
-        <p class="text-white">Last updated {{ site.time | date: '%Y' }}</p>
+        <p class="text-dark">Last updated {{ site.time | date: '%Y' }}</p>
+        <p class="text-dark mt-2" id="footer-credits">
+            <small><em>built with</em>
+                <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
+                    <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder logo" >
+                </a>
+            </small>
+        </p>
     </div>
+    
 
 </footer>
