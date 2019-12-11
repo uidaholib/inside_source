@@ -7,8 +7,7 @@
     background-position: center;
 }
 #home-title-box {
-    padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-    padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
+    padding: 10em 0;
 }
 @media screen and (max-width: 576px) {
     #home-title-box {
@@ -18,17 +17,20 @@
 }
 </style>
 <div id="home-banner" class="container-fluid mb-0 p-0">
-    <div id="home-title-box">
-        <div class="title-card p-2 text-center">
-            <a class="d-none d-md-block" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} logo" >
-            </a>
-            <h1 class="display-4">{{ site.title }}</h1>
-            {% if site.tagline %}<p id="home-tagline">{{ site.tagline }}</p>{% endif %}
+    <div class="row justify-content-center">
+        <div id="home-title-box" class="col-md-4 text-center">
+            <form role="search" id="" class="border-white" onsubmit="">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control form-control-lg" id="" placeholder="Search data">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary rounded-right border border-light" type="submit" title="Search" alt="Search" id="">Search</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-    <div class="text-right p-0 mt-0">
-        <small><a class="text-info featured-link" href="{% if site.data.theme.featured-image-objectid %}{{ site.data.theme.featured-image-objectid | prepend: '/items/' | prepend: site.baseurl | append: '.html' }}{% else %}{{ site.data.theme.featured-image-link }}{% endif %}" title="{{ bannerItem[0].title | escape }}">Featured Image</a></small>
+    <div class="text-right py-2">
+        <small><a class="text-info featured-link" href="https://insideidaho.org/apps/imagery-explorer/" title="">Featured Resource</a></small>
     </div>
 </div>
 {%- else -%}
