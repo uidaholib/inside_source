@@ -1,10 +1,10 @@
-{% if page.layout == "home-infographic" %}
+{% if page.layout == "home" %}
 <style>
 #home-banner {
-    background-image: url('{% include image/featured-image.html %}');
+    background-image: url('{{ '/assets/img/aerial-feature.jpg' | relative_url }}');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: top }};
+    background-position: center;
 }
 #home-title-box {
     padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
