@@ -34,6 +34,7 @@
     </div>
 </div>
 {%- else -%}
+{%- unless page.title == "About" -%}
 <div class="container">
     <div class="row align-items-center">
         <div id="title" class="col-md-9">
@@ -47,4 +48,5 @@
         </div>
     </div>
 </div>
+{%- endunless -%}
 {%- endif -%}
