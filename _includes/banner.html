@@ -7,7 +7,7 @@
     background-position: center;
 }
 #home-title-box {
-    padding: 10em 0;
+    padding: 0em 0 20em;
 }
 @media screen and (max-width: 576px) {
     #home-title-box {
@@ -16,17 +16,24 @@
     }
 }
 </style>
+<div class="container-fluid bg-dark text-white">
+    <form class="form-inline row justify-content-end p-2" role="search" onsubmit="primo_search(); return false;">
+        <input id="primo-search" class="form-control form-control-lg col-md-4 col-sm-10 col-10 p-2 mr-md-2" type="search" placeholder="Search data ..." aria-label="Search">
+        <button class="btn btn-lg my-2 my-sm-1 col-md-1 col-2 p-2 btn-primary" type="submit">Go</button>
+    </form>
+
+    <div class="pt-1">
+
+        
+
+    </div>
+
+</div>
 <div id="home-banner" class="container-fluid mb-0 p-0">
-    <div class="row justify-content-center">
+    <div class="row justify-content-end">
         <div id="home-title-box" class="col-md-4 text-center">
-            <form role="search" id="" class="border-white" onsubmit="">
-                <div class="input-group input-group-lg">
-                    <input type="text" class="form-control form-control-lg" id="" placeholder="Search data">
-                    <div class="input-group-append">
-                        <button class="btn btn-secondary rounded-right border border-light" type="submit" title="Search" alt="Search" id="">Search</button>
-                    </div>
-                </div>
-            </form>
+            
+            
         </div>
     </div>
     <div class="text-right py-2">
