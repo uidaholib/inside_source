@@ -1,0 +1,31 @@
+<div class="row mt-3 pt-4 bg-dark">
+    <div class="col-md-12 text-center  text-white">
+        <h2 class="display-4">StoryMaps</h2>
+        <hr class="w-50 pb-2 text-white" style="border:white 1px solid;">
+    </div>
+    {%- for f in stories -%}
+    <div class="row hidden bg-dark text-white" id="{{f.objectid}}">
+        <div class="col-md-6 text-center " >
+
+            <a href="{{ f.link }}"><img class="img-fluid m-4" src="{{ f.image }}" alt="{{ f.title }}" style="max-height:400px;"></a>
+            <div class="p-4">
+                <h5 class="card-title">{{ f.title }}</h5>
+                <p class="card-text">{{ f.description }}<p>
+                        <a href="{{ f.link }}" class="btn btn-info">View the StoryMap</a>
+            </div>
+
+        </div>
+        <div class="col-md-6 p-4">
+            <h3 class="p-4">Transform your digital storytelling with custom maps</h3>
+            <p class="mx-4">ArcGIS StoryMaps helps you tell remarkable stories with custom maps. Using user generated maps from around the world, you can build your own beautiful website with no coding necessary.</p>
+
+            <p class="mx-4"> This simple map maker can help you create digital stories and visual narratives to help you tell your own story and/or the story of your research. </p> 
+            <p class="mx-4 text-center"><a href="https://storymaps.arcgis.com/" class="btn btn-info text-center mb-3">See More StoryMaps</a><br/>
+            <a href="mailto:bgodfrey@uidaho.edu?subject=StoryMap Help" class="btn btn-secondary text-center mb-3">Get Help from a Master!</a></p>
+
+
+        </div>
+    </div>
+    {%- endfor -%}
+
+</div>

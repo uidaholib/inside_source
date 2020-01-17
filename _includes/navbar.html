@@ -17,11 +17,27 @@
 
         <div class="collapse navbar-collapse" id="page-nav">
             <ul class="navbar-nav ml-auto">
-                {% for nav in site.data.config-nav %}
-                <li class="nav-item {% if page.url == nav.stub %}active{% endif %}">
-                    <a class="nav-link mt-1" href="{{ nav.stub | relative_url }}">{{ nav.display-text }}</a>
+                
+                <li class="nav-item active">
+                    <a class="nav-link mt-1" href="/">Home</a>
                 </li>
-                {% endfor %}
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link mt-1 dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Apps</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {% for a in site.data.applications%}
+                        <a class="dropdown-item" href="{{a.link}}">{{a.title}}</a>{%endfor%}
+                      </div>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/help/">Help With ...</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/about.html">About</a>
+                </li>
+                
             </ul>
         </div>
     </div>    
