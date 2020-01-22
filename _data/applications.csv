@@ -1,5 +1,5 @@
 title,description,image,link,button
-Aerial Imagery Explorer,"Discover, visualize, explore, and download digital georeferenced aerial imagery.",https://insideidaho.org/images/imagery-explorer.png,https://insideidaho.org/apps/imagery-explorer/,Start Exploring
-Idaho Rangeland Atlas,"Mapping Idaho Lands, species, and land usage in an interactive atlas",/assets/img/apps/rangeland.png,http://gis-dev.northwestknowledge.net/apps/rangeland/#/,Range Idaho
-Idaho Topographic Map Explorers,"Explore and download topographic maps sourced from the U.S. Geological Survey",/assets/img/apps/topographic.png,http://gis-dev.northwestknowledge.net/apps/rangeland/#/,Top-o-the-graph!
-Idaho Ground Snow Loads,"An interactive map providing normalized ground snow load calculations based on location",/assets/img/apps/snowload.png,https://www.lib.uidaho.edu/digital/idahosnow/map2015.html,Check your Load
+Idaho Aerial Imagery Explorer,"Discover, explore, and download publicly-accessible digital georeferenced aerial imagery",/assets/img/apps/imagery-explorer.png,https://insideidaho.org/apps/imagery-explorer/,Start Exploring Aerial Imagery
+Idaho Historical Topographic Maps,"Explore and download historical topographic maps sourced from the U.S. Geological Survey",/assets/img/apps/topomaps-explorer.png,https://insideidaho.org/apps/topomaps-explorer/,See Topographic Maps
+Idaho Elevation Data,"Download National Elevation Dataset tiles sourced from the U.S. Geological Survey",/assets/img/apps/elevation-explorer.png,https://insideidaho.org/apps/elevation-explorer/,Download Elevation Data
+Idaho Ground Snow Loads,"An interactive map providing normalized ground snow load calculations based on location",/assets/img/apps/snowload.png,https://www.lib.uidaho.edu/digital/idahosnow/map2015.html,Check Your Snow Load
