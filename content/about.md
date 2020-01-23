@@ -6,9 +6,13 @@ permalink: /about.html
 
 <h1>About INSIDE Idaho</h1>
 <br>
+{% include support.html %}
+
 INSIDE Idaho is the geospatial data clearinghouse for the State of Idaho recognized by the <a href="https://ita.idaho.gov/committees/#igc" target="_blank">Idaho Geospatial Council - Executive Committee</a>. Organizations in Idaho are encouraged to share publicly-available geospatial information as outlined in the <a href="https://ita.idaho.gov/psg/g360.pdf" target="_blank">Idaho Technology Authority (ITA) Guideline G360 Statewide Geospatial Clearinghouse (INSIDE Idaho) Publisher Guidelines</a>.
 
 INSIDE aims to encourage and assist in the discovery and use of geospatial information, to encourage the widespread sharing of geospatial information, to eliminate the creation of redundant data sets, and to further build a digital geospatial information inventory for Idaho through the development of applications and services.
+
+## History
 
 INSIDE was originally developed in the late 1990s under the leadership of Professor Lily Wai, Head of Government Documents at the University of Idaho Library.  For the past two decades INSIDE has been an integral part of Idaho's geospatial community and part of the network for interagency and intergovernmental coordination, data sharing, information transfer, and electronic communication as it relates to geospatial data.
 

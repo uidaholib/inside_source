@@ -21,10 +21,10 @@ featured-image: "/media/carousel/libraryfall-featured.jpg"
 featured-image-alt: "U of I Library tower in Fall"
 
 # Organization branding
-organization-name: "University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/
-organization-logo-banner: https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
-organization-logo-nav: https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
+organization-name: "Inside Idaho"
+organization-link: /
+organization-logo-banner: /assets/img/transparent_header.png
+organization-logo-nav: /assets/img/transparent_header.png
 
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build

@@ -4,31 +4,12 @@ layout: default
 <style>
 
 </style>
-{%- assign featured = site.data.featured -%}
 {%- assign applications = site.data.applications -%}
 {%- assign stories = site.data.stories -%}
+  
+{% include index/universityresources-row.html %}
 
-
-<div class="container-fluid mt-4">
-    <div class="row py-1 px-5 my-4">
-        <div class="col-md-12 text-center">
-            <h2>Featured Resources</h2>
-            <hr class="w-50 pb-2">
-        </div>
-        {%- for f in featured -%}
-        <div class="col-md-4">
-            <div class="card mx-4 my-4 text-center">
-                <img class="card-img-top" src="{{ f.image }}" alt="{{ f.title }}">
-                <div class="card-body">
-                    <h5 class="card-title">{{ f.title }}</h5>
-                    <p class="card-text">{{ f.description }}<p>
-                            <a href="{{ f.link }}" class="btn btn-info">{{ f.button }}</a>
-                </div>
-            </div>
-        </div>
-        {%- endfor -%}
-
-    </div>
+{% include index/stateresources-row.html %}
     
    {% include index/storymap-row.html %}
    {% include index/applications-row.html %}

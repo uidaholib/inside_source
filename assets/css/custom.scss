@@ -28,6 +28,34 @@ $on-jumbo:        1200px;
     }
 }
 
+$grey-color:       #808080;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$black-color:       #191919;
+$black-color-light: lighten($black-color, 40%);
+$black-color-dark:  darken($black-color, 25%);
+
+// vandal colors 
+$pride-gold:  #F1B300;
+$garnet: #D22630; 
+$wild-rose: #E10098;
+$palouse-green: #00AF66;
+$clearwater: #00AEC7;
+$clearwater-light: #8BD5E5;
+$payette-blue: #003E51;
+$ponderosa-pine: #004E42;
+
+// vandal colors translated into bootstrap
+$blue: #003E51;
+$green: #00AF66;
+$cyan: #00AEC7;
+$red: #D22630;
+$yellow: #F1B300;
+$primary: $yellow;
+$gray-800: #191919;
+
+
 /* buttons to theme */
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %} 
 {% for btn in btns %}
@@ -43,4 +71,4 @@ $theme-colors: map-merge(
   $theme-colors
 );
 
-@import "base", "theme-colors", "pages", "custom";
+@import "base", "theme-colors", "pages", "buttons", "custom";
