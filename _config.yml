@@ -6,7 +6,7 @@
 url: https://insideidaho.org
 # location on the domain
 # e.g. /digital/hjccc
-#baseurl: /
+baseurl: 
 # repository
 source-code: https://github.com/uidaholib/inside_source
 
