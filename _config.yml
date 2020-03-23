@@ -3,7 +3,8 @@
 
 # URL variables
 # site domain 
-url: https://insideidaho.org
+#url: https://insideidaho.org
+url: https://inside-new.nkn.uidaho.edu
 # location on the domain
 # e.g. /digital/hjccc
 baseurl: 
