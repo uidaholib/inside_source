@@ -5,4 +5,11 @@
 var arr = [{%for s in site.data.stories %}'{{s.objectid}}'{% unless forloop.last %},{% endunless %}{% endfor %}];
 var showstory = random_item(arr);
 document.getElementById(showstory).classList.remove("hidden");
+
+function inside_search() {
+    const q = document.getElementById("primo-search").value;
+    const url = "http://insideidaho.org/apps/search/?q="+q
+    console.log("inside search: ", q, url);
+    window.open(url, "_self");
+}
 </script>
