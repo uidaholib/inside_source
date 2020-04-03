@@ -1,4 +1,4 @@
 title,description,image,link,button
 Idaho Geospatial Office,"Learn about the Idaho GIS community and statewide geospatial data coordination efforts",/assets/img/igo.png,https://gis.idaho.gov/,Go to the IGO Website
 Idaho Lidar Consortium,"Download Idaho Lidar data, see planned lidar acquisitions, and learn about Lidar-related events",/assets/img/ilc.png,,Go to the ILC Website
-Idaho Framework Data,"The Idaho Map (TIM) is comprised of 16 data layers that underpin many if not all GIS projects",/assets/img/framework.png,https://insideidaho.org/apps/browse-framework/,Browse Idaho Framework Data Layers
+Idaho Framework Data,"The Idaho Map (TIM) is comprised of 16 data layers that underpin many if not all GIS projects",/assets/img/framework.png,/apps/browse-framework/,Browse Idaho Framework Data Layers
