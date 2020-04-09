@@ -4,8 +4,7 @@ layout: page
 permalink: /faq.html
 ---
 
-<h1>Frequently Asked Questions</h1>
-<br>
+# Frequently Asked Questions
 
 **What is INSIDE Idaho?**
 

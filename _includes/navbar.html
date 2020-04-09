@@ -4,15 +4,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="d-md-none col-8">
-            <a class="p-2" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img class="img-fluid" id="mobile-nav-image" src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name }} logo">
-            </a>
-        </div>
-
-        <div class="py-2 navbar-brand">
-            <a title="{{ site.organization-name }}" class="d-none d-lg-block" href="{{ '/' | relative_url }}">
-                <img class="img-fluid inside-logo" src="{{ '/assets/img/transparent_header.png' | relative_url }}" alt="University of Idaho Library [logo]"></a>
+        <div class="py-md-2 px-3 px-md-0 navbar-brand">
+            <a title="{{ site.organization-name }}" class="p-2 p-md-0" href="{{ '/' | relative_url }}">
+                <img class="img-fluid inside-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="INSIDE Idaho [logo]"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="page-nav">
@@ -22,7 +16,7 @@
                     <a class="nav-link mt-1" href="/">Home</a>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item mx-2 dropdown">
                     <a class="nav-link mt-1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         {% for a in site.data.applications%}
@@ -31,11 +25,11 @@
                 </li>
 
                 <li class="nav-item mx-2">
-                    <a class="nav-link mt-1" href="/FAQ/">FAQ</a>
+                    <a class="nav-link mt-1" href="{{ '/faq.html' | relative_url }}">FAQ</a>
                 </li>
 
                 <li class="nav-item mx-2">
-                    <a class="nav-link mt-1" href="/about.html">About</a>
+                    <a class="nav-link mt-1" href="{{ '/about.html' | relative_url }}">About</a>
                 </li>
 
                 <li class="nav-item mt-1">
