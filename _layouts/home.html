@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<style>
 
-</style>
 {%- assign applications = site.data.applications -%}
 {%- assign stories = site.data.stories -%}
-  
-{% include index/universityresources-row.html %}
 
-{% include index/stateresources-row.html %}
-    
+<div class="container-fluid mt-4">
+   {% include index/universityresources-row.html %}
+
+   {% include index/stateresources-row.html %}
+
    {% include index/storymap-row.html %}
+
    {% include index/applications-row.html %}
 </div>
