@@ -18,8 +18,8 @@ tagline: Idaho's Geospatial Data Clearinghouse
 description: "INSIDE Idaho is the geospatial data clearinghouse for the State of Idaho recognized by the Idaho Geospatial Council - Executive Committee. INSIDE Idaho serves as a data digital library, providing access to, and a context within which to use, geospatial data and information by, for, and about Idaho." 
 email: bgodfrey@uidaho.edu
 # for markup 
-featured-image: "/media/carousel/libraryfall-featured.jpg"
-featured-image-alt: "U of I Library tower in Fall"
+featured-image: "/assets/img/transparent_header.png"
+featured-image-alt: "INSIDE Idaho"
 
 # Organization branding
 organization-name: "INSIDE Idaho"
