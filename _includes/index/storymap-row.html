@@ -3,6 +3,7 @@
         <h2 class="display-4">StoryMaps</h2>
         <hr class="w-50 pb-2 text-white" style="border:white 1px solid;">
     </div>
+    {%- assign stories = site.data.stories -%}
     {%- for f in stories -%}
     <div class="row hidden bg-dark text-white" id="{{f.objectid}}">
         <div class="col-md-6 text-center " >
