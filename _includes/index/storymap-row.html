@@ -3,32 +3,29 @@
         <h2 class="display-4">StoryMaps</h2>
         <hr class="w-50 pb-2 text-white" style="border:white 1px solid;">
     </div>
+    {%- assign stories = site.data.stories -%}
     {%- for f in stories -%}
-    <div class="row hidden bg-dark text-white" id="{{f.objectid}}">
-        <div class="col-md-6 text-center " >
+    <div class="col-md-6 hidden text-center text-white" id="{{f.objectid}}">
 
-            <a href="{{ f.link }}"><img class="img-fluid m-4" src="{{ f.image }}" alt="{{ f.title }}" style="max-height:400px;"></a>
-            <div class="p-4">
-                <h5 class="card-title">{{ f.title }}</h5>
-                <p class="card-text">{{ f.description }}<p>
-                        <a href="{{ f.link }}" class="btn btn-info" target="_blank">View the StoryMap</a>
-            </div>
-
+        <a href="{{ f.link }}"><img class="img-fluid p-4" src="{{ f.image }}" alt="{{ f.title }}" style="max-height:400px;"></a>
+        <div class="p-4">
+            <h5 class="card-title">{{ f.title }}</h5>
+            <p class="card-text">{{ f.description }}<p>
+            <a href="{{ f.link }}" class="btn btn-info" target="_blank">View the StoryMap</a>
         </div>
-        <div class="col-md-6 p-4">
-            <h3 class="p-4">Transform your digital storytelling with custom maps</h3>
-            <p class="mx-4">ArcGIS StoryMaps helps you tell remarkable stories with custom maps. Using user generated maps from around the world, you can build your own beautiful website with no coding necessary.</p>
 
-            <p class="mx-4 mb-4"> This simple map maker can help you create digital stories and visual narratives to help you tell your own story and/or the story of your research. </p> 
-            <hr/>
-            <p class="mx-4 text-center mt-3"><a href="https://uidaho.maps.arcgis.com/home/group.html?id=2edb93ef21e64bcf9bdf1c8b655aca68&view=list#content" class="btn btn-pride-gold text-center mb-3" target="_blank">Explore Stories from the University of Idaho</a></p>
-            <p class="mx-4 text-center"><a href="https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories" class="btn btn-info text-center mb-3" target="_blank">Explore Stories from Around the World</a></p>
-            <p class="mx-4 text-center">
-            <a href="mailto:bgodfrey@uidaho.edu?subject=StoryMap Help" class="btn btn-secondary text-center mb-3">Get Help Creating Your First Story</a></p>
-
-
-        </div>
     </div>
     {%- endfor -%}
+    <div class="col-md-6 p-4 text-white">
+        <h3 class="p-4">Transform your digital storytelling with custom maps</h3>
+        <p class="mx-4">ArcGIS StoryMaps helps you tell remarkable stories with custom maps. Using user generated maps from around the world, you can build your own beautiful website with no coding necessary.</p>
+
+        <p class="mx-4 mb-4"> This simple map maker can help you create digital stories and visual narratives to help you tell your own story and/or the story of your research. </p> 
+        <hr/>
+        <p class="mx-4 text-center mt-3"><a href="https://uidaho.maps.arcgis.com/home/group.html?id=2edb93ef21e64bcf9bdf1c8b655aca68&view=list#content" class="btn btn-pride-gold text-center mb-3" target="_blank">Explore Stories from the University of Idaho</a></p>
+        <p class="mx-4 text-center"><a href="https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories" class="btn btn-info text-center mb-3" target="_blank">Explore Stories from Around the World</a></p>
+        <p class="mx-4 text-center">
+        <a href="mailto:bgodfrey@uidaho.edu?subject=StoryMap Help" class="btn btn-secondary text-center mb-3">Get Help Creating Your First Story</a></p>
+    </div>
 
 </div>
