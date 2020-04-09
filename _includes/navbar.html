@@ -13,7 +13,7 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item mx-2">
-                    <a class="nav-link mt-1" href="/">Home</a>
+                    <a class="nav-link mt-1{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
                 </li>
 
                 <li class="nav-item mx-2 dropdown">
@@ -24,11 +24,11 @@
                     </div>
                 </li>
 
-                <li class="nav-item mx-2">
+                <li class="nav-item mx-2{% if page.url == '/faq.html' %} active{% endif %}">
                     <a class="nav-link mt-1" href="{{ '/faq.html' | relative_url }}">FAQ</a>
                 </li>
 
-                <li class="nav-item mx-2">
+                <li class="nav-item mx-2{% if page.url == '/about.html' %} active{% endif %}">
                     <a class="nav-link mt-1" href="{{ '/about.html' | relative_url }}">About</a>
                 </li>
 
