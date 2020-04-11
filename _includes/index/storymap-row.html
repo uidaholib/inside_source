@@ -7,7 +7,7 @@
     {%- for f in stories -%}
     <div class="col-md-6 hidden text-center text-white" id="{{f.objectid}}">
 
-        <a href="{{ f.link }}"><img class="img-fluid p-4" src="{{ f.image }}" alt="{{ f.title }}" style="max-height:400px;"></a>
+        <a href="{{ f.link }}" target="_blank"><img class="img-fluid p-4" src="{{ f.image }}" alt="{{ f.title }}" style="max-height:400px;"></a>
         <div class="p-4">
             <h5 class="card-title">{{ f.title }}</h5>
             <p class="card-text">{{ f.description }}<p>
