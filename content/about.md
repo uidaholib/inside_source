@@ -4,8 +4,8 @@ layout: page
 permalink: /about.html
 ---
 
-<h1>About INSIDE Idaho</h1>
-<br>
+# About INSIDE Idaho
+
 {% include support.html %}
 
 INSIDE Idaho is the geospatial data clearinghouse for the State of Idaho recognized by the <a href="https://ita.idaho.gov/committees/#igc" target="_blank">Idaho Geospatial Council - Executive Committee</a>. Organizations in Idaho are encouraged to share publicly-available geospatial information as outlined in the <a href="https://ita.idaho.gov/psg/g360.pdf" target="_blank">Idaho Technology Authority (ITA) Guideline G360 Statewide Geospatial Clearinghouse (INSIDE Idaho) Publisher Guidelines</a>.
