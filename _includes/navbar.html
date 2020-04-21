@@ -32,6 +32,10 @@
                     <a class="nav-link mt-1" href="{{ '/about.html' | relative_url }}">About</a>
                 </li>
 
+                <li class="nav-item mx-2{% if page.url == '/search.html' %} active{% endif %}">
+                    <a class="nav-link mt-1" href="{{ '/search.html' | relative_url }}">Search</a>
+                </li>
+
                 <li class="nav-item mt-1">
                     <a class="nav-link  btn btn-lg btn-outline-pride-gold ml-2" href="#" data-toggle="modal" data-target="#helpModal"> <span class="far fa-comment-dots"> </span> Help</a>
                 </li>
