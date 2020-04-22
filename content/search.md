@@ -4,6 +4,7 @@ layout: search
 permalink: /search.html
 ---
 
-<h1 class="text-center">Search INSIDE Idaho</h1>
+# Search INSIDE Idaho Data
+{:.text-center}
 
 <div id="inside-idaho-search-app"></div>
