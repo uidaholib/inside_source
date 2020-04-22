@@ -6,13 +6,11 @@
   <body>
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
     {% include navbar.html %}
-    {% include helpmodal.html %}
-
-    {% include banner.html %}
     <main id="maincontent" role="main">
       {{ content }}
     </main>
     {% include footer.html %}
+    {% include helpmodal.html %}
     {% include foot.html %}
   </body>
 </html>
