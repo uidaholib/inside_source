@@ -1,0 +1,6 @@
+<script>
+function inside_search() {
+    const q = document.getElementById("inside-search").value;
+    window.open("{{ '/search.html' | absolute_url }}?q=" + encodeURIComponent(q), "_self" );
+}
+</script>
