@@ -5,4 +5,8 @@
 {% if layout.lazyload == true or page.lazyload == true %}<script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>{% endif %}
 {% if layout.gallery == true %}{% include js/gallery-js.html %}{% endif %}
 
-{% if page.layout == 'home' %}{% include js/random-js.html %}{% endif %}
+{% if page.layout == 'home' %}
+{% include js/random-js.html %}
+{% include js/inside-search-js.html %}
+{% endif %}
+{% if page.layout == 'search' %}<script src="{{ '/assets/lib/search/bundle.js' | relative_url }}"></script>{% endif %}
