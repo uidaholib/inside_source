@@ -1,0 +1,16 @@
+﻿id,name,endpoint
+0,University of Idaho,https://uidaho.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+1,Idaho Fish & Game,https://idfggis.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+2,Idaho Transportation Department,https://iplan.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+3,Idaho Department of Enviornmental Quality,https://idahodeq.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+4,Idaho Department of Water Resources,https://idwr.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+5,City of Boise,https://boise.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+6,Community Planning Association of Southwest Idaho,https://compassidaho.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+7,State of Idaho,https://idaho.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+8,City of McCall,https://mccall.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+9,City of Rexburg,https://mrgis.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+10,City of Post Falls,https://postfalls.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+11,Idaho State Tax Commission,https://istc.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+12,Ada County Highway District,https://achd.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+13,Lewis-Clark State College,https://lcsc.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+14,gISU,https://isu.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
