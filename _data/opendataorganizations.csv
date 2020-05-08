@@ -1,4 +1,4 @@
-﻿id,name,endpoint
+id,name,endpoint
 0,University of Idaho,https://uidaho.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
 1,Idaho Fish & Game,https://idfggis.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
 2,Idaho Transportation Department,https://iplan.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
