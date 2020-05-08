@@ -1,0 +1,16 @@
+---
+# generate orgs json for browse app
+# by pulling data from opendataorganizations.csv
+---
+{%- assign orgs = site.data.opendataorganizations -%}
+{
+    "organizations": [
+        {%- for org in orgs -%}
+        { 
+            "UID" : {{ org.id | jsonify }}, 
+            "ORG_NAME" : {{ org.name | jsonify }}, 
+            "ORG_ENDPOINT" : {{ org.endpoint | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]
+}
