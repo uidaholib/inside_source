@@ -6,4 +6,6 @@ javascript bundle:
 current project repository:
 https://github.com/uidaholib/browse-framework
 
+depends on, https://github.com/uidaholib/inside-idaho-lib
+
 basics of API used:
