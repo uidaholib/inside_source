@@ -9,4 +9,4 @@
 {% include js/random-js.html %}
 {% include js/inside-search-js.html %}
 {% endif %}
-{% if page.layout == 'search' %}<script src="{{ '/assets/lib/search/bundle.js' | relative_url }}"></script>{% endif %}
+{% if page.custom-js-src %}<script src="{{ page.custom-js-src | relative_url }}"></script>{% endif %}
