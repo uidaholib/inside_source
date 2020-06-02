@@ -7,9 +7,9 @@
     "organizations": [
         {%- for org in orgs -%}
         { 
-            "UID" : {{ org.id | jsonify }}, 
-            "ORG_NAME" : {{ org.name | jsonify }}, 
-            "ORG_ENDPOINT" : {{ org.endpoint | jsonify }}
+            "id" : {{ org.id | jsonify }}, 
+            "name" : {{ org.name | jsonify }}, 
+            "url" : {{ org.endpoint | jsonify }}
         }{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ]
