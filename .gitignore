@@ -1,7 +1,8 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+public/
+src/_site
+src/.sass-cache/
+src/.jekyll-cache/
+src/.jekyll-metadata
 .DS_Store
 
 # ignore lock
