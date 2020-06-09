@@ -1,5 +1,9 @@
 <script>
-  import { search$, searchState$, SEARCH_STATES } from "@uidaholib/shared/stores/search";
+  import {
+    search$,
+    searchState$,
+    SEARCH_STATES
+  } from "@uidaholib/shared/stores/search";
 
   let text = "";
 
@@ -13,21 +17,22 @@
 
 <form
   on:submit|preventDefault={handleSubmit}
-  class="d-flex justify-content-center mb-2">
+  class="row mb-3 justify-content-center text-center">
 
-  <div
-    class="input-group d-flex justify-content-center rounded"
-    style="width: 24rem;">
+  <div class="input-group">
     <input
-      class="form-control rounded-left shadow-sm px-4 py-2"
+      class="form-control px-4 py-2"
       type="text"
-      placeholder="Search for dataset"
       bind:value={text}
-      name="search" />
-    <div class="input-group-prepend">
+      name="search"
+      placeholder="Search"
+      aria-label="Search GIS data"
+      aria-describedby="button-addon2" />
+    <div class="input-group-append">
       <button
         class="btn btn-primary rounded-right shadow-sm"
         type="submit"
+        id="button-addon2"
         disabled={text === ''}>
         {#if showSpinner}
           <span
