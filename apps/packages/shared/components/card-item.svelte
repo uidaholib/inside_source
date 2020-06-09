@@ -28,7 +28,7 @@
     dispatch("arcgis", { id, landingPage, url });
   };
 </script>
-
+<!-- 
 <div
   class="d-flex flex-column justify-content-between h-100 shadow rounded w-100
   h-100 rounded-lg">
@@ -63,4 +63,35 @@
     </button>
   </div>
 
+</div> -->
+
+<div class="card mb-3 mr-3" style="width: 20rem;">
+  <img
+    src={thumbnailUrl}
+    class="card-img-top"
+    alt="dataset image" />
+  <div class="card-body">
+    <h5 class="card-title text-truncate w-100" >{title}</h5>
+    {#if subtitle}
+      <h6 class="card-subtitle mb-2 text-muted text-truncate w-100">{subtitle}</h6>
+    {/if}
+    <p class="card-text text-wrap text-truncate w-100" style="display: block; height: 5rem;">
+      {@html description}
+    </p>
+
+    <div class="d-flex align-items-center w-100">
+      <a
+        on:click={openArcgis}
+        href="#"
+        class="btn btn-sm btn-outline-primary w-100 mr-2">
+        ArcGIS Item Details
+      </a>
+      <a
+        on:click={openHub}
+        href="#"
+        class="btn btn-sm btn-outline-primary w-100">
+        Open Data Item Details
+      </a>
+    </div>
+  </div>
 </div>

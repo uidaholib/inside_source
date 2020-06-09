@@ -12,8 +12,6 @@
   <div class="d-flex flex-row justify-content-center flex-wrap">
     {#each $items$ as item (item.id)}
       <div
-        class="mb-3 mr-3"
-        style="max-width: 18rem; height: 28rem;"
         in:fade={{ duration: 500 }}>
         <Item {item} />
       </div>
