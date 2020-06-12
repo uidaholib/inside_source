@@ -9,8 +9,6 @@
   let title = "Groups";
   $: selected = selectedGroup.title;
 
-  $: console.log("selected: ", selected);
-
   $: sortedSelectedGroups = sorter("title")(selectedGroups);
 
   const dispatch = createEventDispatcher();
@@ -18,7 +16,6 @@
   function setSelectedGroup(group) {
     dispatch("change", group);
     selected = group.title;
-    console.log("selection: ", group);
     // gtag("event", "inside-browse-org-group-click", {
     //   event_category: "inside-browse-org",
     //   event_label: selected
@@ -27,7 +24,6 @@
 
   const onSelectionChanged = event => {
     const group = selectedGroups.find(g => g.title === event.target.value);
-    console.log("group: ", group);
     setSelectedGroup(group);
   };
 </script>
