@@ -39,8 +39,7 @@
 </script>
 
 <div class="container mx-auto px-4 py-2">
-  <h2 class="text-center mb-4">Browse by Organization</h2>
-
+  
   <div class="d-flex flex-column">
     <div class="d-flex justify-content-center mb-3">
       <Selection items={$organizations$} on:change={selectionChanged} />
