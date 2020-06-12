@@ -47,7 +47,7 @@
       <style>
         .fade-text {
           position: relative;
-          height: 4.5em;
+          height: 5em;
           width: 100%;
         }
         .fade-text:after {
@@ -64,12 +64,17 @@
             rgba(255, 255, 255, 1) 85%
           );
         }
+        .fade-text > * {
+          font-size: 1rem;
+        }
       </style>
       <p class="card-text fade-text" style="height: 4.5rem; overflow: hidden;">
         {@html description}
       </p>
     {/if}
 
+  </div>
+  <div class="card-body pt-0">
     <div class="d-flex justify-content-center w-100">
       <a
         on:click={openArcgis}
@@ -81,6 +86,7 @@
         Open Data Item Details
       </a>
     </div>
+
   </div>
 
 </div>
