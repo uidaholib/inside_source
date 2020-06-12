@@ -9,11 +9,9 @@ export const itemsState$ = state.currentState;
 const url = `https://opendata.arcgis.com/api/v2/datasets?q=igc-ec&fields[items]=tags`;
 
 export const items$ = ajax(url).pipe(
-  tap((data) => console.log("data: ", data)),
   tap((_) => state.setLoading()),
   map((data) => data.response.data.map((result) => Item.from(result))),
   tap((_) => state.setLoaded()),
-  tap((items) => console.log("data items: ", items)),
   startWith([]),
   share()
 );

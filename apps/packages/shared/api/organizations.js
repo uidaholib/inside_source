@@ -17,7 +17,6 @@ import { combineToArray } from "./helpers";
 export const organizations$ = (url) =>
   ajax(url)
     .pipe(
-      tap((data) => console.log("orgs data: ", data)),
       switchMap((data) => {
         return data.response.organizations.map((org) => org.url);
       }),
@@ -62,7 +61,6 @@ export const organizations$ = (url) =>
     .pipe(
       combineToArray(),
       map((data) => ({ type: "DATA", data})),
-      tap(data => console.log("get data: ", data)),
     );
 
 const machine = createMachine({

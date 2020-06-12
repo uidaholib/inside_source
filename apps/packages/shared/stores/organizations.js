@@ -19,7 +19,6 @@ const dataUrl= "https://insideidaho.org/assets/data/organizations.json";
 
 export const organizations$ = ajax(dataUrl)
   .pipe(
-    tap(data => console.log("orgs data: ", data)),
     switchMap((data) => {
       return data.response.organizations.map(
         (org => org.url));

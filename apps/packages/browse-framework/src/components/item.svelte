@@ -3,8 +3,6 @@
 
   export let item;
 
-  $: console.log("item: ", item);
-
   const openHub = () => {
     const url = `http://hub.arcgis.com/datasets/${item.id}`;
     window.open(url, "_blank");

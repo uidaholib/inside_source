@@ -27,71 +27,66 @@
   const openArcgis = () => {
     dispatch("arcgis", { id, landingPage, url });
   };
-</script>
-<!-- 
-<div
-  class="d-flex flex-column justify-content-between h-100 shadow rounded w-100
-  h-100 rounded-lg">
-  <div>
-    <img
-      src={thumbnailUrl}
-      alt="thumbnail image"
-      class="img-fluid w-100 mb-2 rounded-top"
-      style="height: 12rem;" />
-    <div class="p-2">
-      <h6
-        class="font-weight-bold"
-        aria-label="more information"
-        title="More Information"
-        use:truncate={20}>
-        {title}
-      </h6>
-      <p class="">{subtitle}</p>
-      <p use:truncate={90} class="">
-        {@html description}
-      </p>
-    </div>
-  </div>
-  <div class="d-flex align-items-center p-2 w-100">
-    <button
-      class="btn btn-sm btn-outline-primary w-100 mr-2"
-      on:click={openArcgis}>
-      ArcGIS Item Details
-    </button>
-    <button class="btn btn-sm btn-outline-primary w-100" on:click={openHub}>
-      Open Data Item Details
-    </button>
-  </div>
 
-</div> -->
+  // card display reference:
+  //https://uidaho.maps.arcgis.com/home/gallery.html?view=grid&sortOrder=asc&sortField=title
+</script>
 
 <div class="card mb-3 mr-3" style="width: 20rem;">
-  <img
-    src={thumbnailUrl}
-    class="card-img-top"
-    alt="dataset image" />
+  <img src={thumbnailUrl} class="card-img-top" alt="dataset image" />
   <div class="card-body">
-    <h5 class="card-title text-truncate w-100" >{title}</h5>
+    <h6 class="card-title text-primary text-truncate w-100" {title}>{title}</h6>
     {#if subtitle}
-      <h6 class="card-subtitle mb-2 text-muted text-truncate w-100">{subtitle}</h6>
+      <span
+        class="card-subtitle mb-2 text-muted text-truncate w-100"
+        title={subtitle}>
+        {subtitle}
+      </span>
     {/if}
-    <p class="card-text text-wrap text-truncate w-100" style="display: block; height: 5rem;">
-      {@html description}
-    </p>
+    {#if description}
+      <style>
+        .fade-text {
+          position: relative;
+          height: 5em;
+          width: 100%;
+        }
+        .fade-text:after {
+          content: "";
+          text-align: right;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 65%;
+          height: 2em;
+          background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 1) 85%
+          );
+        }
+        .fade-text > * {
+          font-size: 1rem;
+        }
+      </style>
+      <p class="card-text fade-text" style="height: 4.5rem; overflow: hidden;">
+        {@html description}
+      </p>
+    {/if}
 
-    <div class="d-flex align-items-center w-100">
+  </div>
+  <div class="card-body pt-0">
+    <div class="d-flex justify-content-center w-100">
       <a
         on:click={openArcgis}
         href="#"
-        class="btn btn-sm btn-outline-primary w-100 mr-2">
+        class="btn btn-sm btn-outline-info w-100 mr-2">
         ArcGIS Item Details
       </a>
-      <a
-        on:click={openHub}
-        href="#"
-        class="btn btn-sm btn-outline-primary w-100">
+      <a on:click={openHub} href="#" class="btn btn-sm btn-outline-info w-100">
         Open Data Item Details
       </a>
     </div>
+
   </div>
+
 </div>

@@ -31,7 +31,6 @@ export const groups$ = organizations$.pipe(
 export const searchTerm$ = new Subject();
 
 export const searchResults$ = combineLatest([search$, groups$]).pipe(
-  tap(data => console.log("search data: ", data)),
   filter(([term, groups]) => term.length > 0 && groups.length > 0),
   tap(() => searchState$.next(SEARCH_STATES.LOADING)),
   switchMap(([text, groups]) => {
@@ -66,7 +65,6 @@ export const searchResults$ = combineLatest([search$, groups$]).pipe(
   }),
   tap(() => searchState$.next(SEARCH_STATES.LOADED)),
   startWith([]),
-  tap(data => console.log("search result: ", data)),
   share(),
 );
 
