@@ -7,3 +7,5 @@ src/.jekyll-metadata
 
 # ignore lock
 Gemfile.lock
+
+apps/node_modules/
