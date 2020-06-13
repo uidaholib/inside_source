@@ -33,7 +33,7 @@
 </script>
 
 <div class="card mb-3 mr-3" style="width: 20rem;">
-  <img src={thumbnailUrl} class="card-img-top" alt="dataset image" />
+  <img src={thumbnailUrl} class="card-img-top" alt="dataset image" style="height: 14rem;"/>
   <div class="card-body">
     <h6 class="card-title text-primary text-truncate w-100" {title}>{title}</h6>
     {#if subtitle}
@@ -45,30 +45,35 @@
     {/if}
     {#if description}
       <style>
-        .fade-text {
+
+        html {
+          --lh: 1.4rem;
+          line-height: var(--lh);
+        }
+
+        .truncate-overflow {
+          --max-lines: 3;
           position: relative;
-          height: 5em;
-          width: 100%;
+          max-height: calc(var(--lh) * var(--max-lines));
+          overflow: hidden;
+          padding-right: 1rem; /* space for ellipsis */
         }
-        .fade-text:after {
-          content: "";
-          text-align: right;
+        .truncate-overflow::before {
           position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 65%;
-          height: 2em;
-          background: linear-gradient(
-            to right,
-            rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 1) 85%
-          );
+          content: "...";
+          inset-block-end: 0; /* "bottom" */
+          inset-inline-end: 0; /* "right" */
         }
-        .fade-text > * {
-          font-size: 1rem;
+        .truncate-overflow::after {
+          content: "";
+          position: absolute;
+          inset-inline-end: 0; /* "right" */
+          width: 1rem;
+          height: 1rem;
+          background: white;
         }
       </style>
-      <p class="card-text fade-text" style="height: 4.5rem; overflow: hidden;">
+      <p class="card-text truncate-overflow" style="height: 4.5rem; overflow: hidden;">
         {@html description}
       </p>
     {/if}
@@ -79,10 +84,10 @@
       <a
         on:click={openArcgis}
         href="#"
-        class="btn btn-sm btn-outline-info w-100 mr-2">
+        class="btn btn-sm btn-info w-100 mr-2">
         ArcGIS Item Details
       </a>
-      <a on:click={openHub} href="#" class="btn btn-sm btn-outline-info w-100">
+      <a on:click={openHub} href="#" class="btn btn-sm btn-info w-100">
         Open Data Item Details
       </a>
     </div>
