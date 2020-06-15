@@ -11,9 +11,6 @@ baseurl:
 # repository
 source-code: https://github.com/uidaholib/inside_source
 
-source: src
-destination: public
-
 # Site settings
 title: INSIDE Idaho
 # header and head metadata
