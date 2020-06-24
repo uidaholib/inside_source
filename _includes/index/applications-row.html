@@ -7,7 +7,7 @@
     {%- for f in applications -%}
     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
         <div class="card mx-4 my-4 text-center">
-            <img class="card-img-top" src="{{ f.image }}" alt="{{ f.title }}">
+            <img class="lazyload card-img-top" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ f.image }}" alt="{{ f.title }}">
             <div class="card-body">
                 <h5 class="card-title">{{ f.title }}</h5>
                 <p class="card-text">{{ f.description }}<p>
