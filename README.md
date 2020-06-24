@@ -2,10 +2,8 @@
 
 https://insideidaho.org/
 
+Jekyll project to build Inside Idaho website.
 
-## Javascript apps
-See [/docs/apps.md](https://github.com/uidaholib/inside_source/tree/master/docs/apps.md)
-
-
-## Jekyll 
-The Jekyll source is located at /src/. After the running `jekyll build` the build will be located at /public (which is ignored by Git).
+Javascript apps used in the project are located in a separate repository.
+The bundled JS is added to this project in folders in assets/lib.
+See: https://github.com/uidaholib/inside_apps
