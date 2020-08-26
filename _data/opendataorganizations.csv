@@ -14,3 +14,6 @@ id,name,endpoint
 12,Ada County Highway District,https://achd.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
 13,Lewis-Clark State College,https://lcsc.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
 14,Idaho State Tax Commission,https://istc.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+15,Jefferson County GIS,https://jeffgis.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+16,Valley County, Idaho GIS,https://valleycounty.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+17,Teton County, Idaho GIS,http://tetonidaho.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
