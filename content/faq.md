@@ -35,4 +35,4 @@ Bruce Godfrey, University of Idaho GIS Librarian (bgodfrey@uidaho.edu); 208.292.
 
 **How do I share data through INSIDE Idaho?**
 
-If you are affiliated with the University of Idaho, contact Bruce Godfrey, GIS Librarian.  If you are within an organization in Idaho, see <a href="https://ita.idaho.gov/psg/g360.pdf" target="_blank" rel="noopener">Idaho Technology Authority (ITA) Guideline G360 Statewide Geospatial Clearinghouse (INSIDE Idaho) Publisher Guidelines</a>
+If you are affiliated with the University of Idaho, contact Bruce Godfrey, GIS Librarian.  If you are within an organization in Idaho, see <a href="https://ita.idaho.gov/psg/g360.pdf" target="_blank" rel="noopener">Idaho Technology Authority (ITA) Guideline G360 Statewide Geospatial Clearinghouse (INSIDE Idaho) Publisher Guidelines</a>. See the <a href="https://insideidaho.org/helpdocs/inside-publisher-supplement.pdf" target="_blank" rel="noopener">Publisher Supplement</a> for best practices recomendations.
