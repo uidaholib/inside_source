@@ -1,0 +1,17 @@
+---
+# generate collections json for aerial imagery explorer app
+# by pulling data from aerialimagerycollections.csv
+---
+{%- assign collections = site.data.aerialimagerycollections -%}
+{
+    "collections": [
+        {%- for collection in collections -%}
+        { 
+            "sortorder" : {{ collection.sortorder | jsonify }}, 
+            "datasetid" : {{ collection.datasetid | jsonify }}, 
+            "collectionname" : {{ collection.collectionname | jsonify }}, 
+            "constraints" : {{ collection.constraints | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]
+}
