@@ -41,22 +41,24 @@ sortorder,datasetid,collectionname,constraints
 40,12,Boise Urban Area 2003,Public
 41,8,Southeast Idaho 2003,Public
 42,37,Moscow 2003,Restricted
-43,36,Moscow 2001,Restricted
-44,25,Treasure Valley 2000,Public
-45,26,Payette Valley 1997,Public
-46,24,Treasure Valley 1994,Public
-47,35,Pocatello 1994,Public
-48,34,Pocatello 1984,Public
-49,33,Pocatello 1975,Public
-50,19,Buhl City Area 1969,Public
-51,21,Oakley City Area 1968 | 1969,Public
-52,17,Raft River Area 1968,Public
-53,32,Pocatello 1968,Public
-54,16,Blackfoot River Area 1964 | 1966,Public
-55,20,Buhl City Area 1964,Public
-56,31,Pocatello 1963,Public
-57,22,Oakley City Area 1962 | 1964,Public
-58,18,Raft River Area 1962,Public
-59,30,Pocatello 1959,Public
-60,27,Payette Valley 1938 | 1943 | 1949,Public
-61,23,Treasure Valley 1938 | 1939,Public
+43,63,Idaho 2002-2004,Restricted
+44,36,Moscow 2001,Restricted
+45,25,Treasure Valley 2000,Public
+46,62,Idaho 1998-2001,Restricted
+47,26,Payette Valley 1997,Public
+48,24,Treasure Valley 1994,Public
+49,35,Pocatello 1994,Public
+50,34,Pocatello 1984,Public
+51,33,Pocatello 1975,Public
+52,19,Buhl City Area 1969,Public
+53,21,Oakley City Area 1968 | 1969,Public
+54,17,Raft River Area 1968,Public
+55,32,Pocatello 1968,Public
+56,16,Blackfoot River Area 1964 | 1966,Public
+57,20,Buhl City Area 1964,Public
+58,31,Pocatello 1963,Public
+59,22,Oakley City Area 1962 | 1964,Public
+60,18,Raft River Area 1962,Public
+61,30,Pocatello 1959,Public
+62,27,Payette Valley 1938 | 1943 | 1949,Public
+63,23,Treasure Valley 1938 | 1939,Public
