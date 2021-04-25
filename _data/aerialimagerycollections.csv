@@ -41,38 +41,39 @@ sortorder,datasetid,collectionname,constraints
 40,74,Boise Foothills 2010,Public
 41,40,Moscow 2010,Restricted
 42,11,Boundary County 2009,Public
-43,1,Idaho 2009,Public
-44,39,Moscow 2008,Restricted
-45,15,"Culdesac, Lapwai, & Peck Cities 2007",Public
-46,14,Nez Perce County 2007,Public
-47,38,Moscow 2006,Restricted
-48,76,Boise 2006,Public
-49,75,Boise Foothills 2006,Public
-50,13,Idaho Panhandle 2006,Public
-51,9,Idaho Agricultural Land 2006,Public
-52,77,Boise 2005,Public
-53,0,Idaho 2004,Public
-54,12,Boise 2003,Public
-55,8,Southeast Idaho 2003,Public
-56,37,Moscow 2003,Restricted
-57,63,Idaho 2002-2004,Restricted
-58,36,Moscow 2001,Restricted
-59,25,Treasure Valley 2000,Public
-60,62,Idaho 1998-2001,Restricted
-61,26,Payette Valley 1997,Public
-62,24,Treasure Valley 1994,Public
-63,35,Pocatello 1994,Public
-64,34,Pocatello 1984,Public
-65,33,Pocatello 1975,Public
-66,19,Buhl City Area 1969,Public
-67,21,Oakley City Area 1968 | 1969,Public
-68,17,Raft River Area 1968,Public
-69,32,Pocatello 1968,Public
-70,16,Blackfoot River Area 1964 | 1966,Public
-71,20,Buhl City Area 1964,Public
-72,31,Pocatello 1963,Public
-73,22,Oakley City Area 1962 | 1964,Public
-74,18,Raft River Area 1962,Public
-75,30,Pocatello 1959,Public
-76,27,Payette Valley 1938 | 1943 | 1949,Public
-77,23,Treasure Valley 1938 | 1939,Public
+43,78,Kootenai County 2009,Public
+44,1,Idaho 2009,Public
+45,39,Moscow 2008,Restricted
+46,15,"Culdesac, Lapwai, & Peck Cities 2007",Public
+47,14,Nez Perce County 2007,Public
+48,38,Moscow 2006,Restricted
+49,76,Boise 2006,Public
+50,75,Boise Foothills 2006,Public
+51,13,Idaho Panhandle 2006,Public
+52,9,Idaho Agricultural Land 2006,Public
+53,77,Boise 2005,Public
+54,0,Idaho 2004,Public
+55,12,Boise 2003,Public
+56,8,Southeast Idaho 2003,Public
+57,37,Moscow 2003,Restricted
+58,63,Idaho 2002-2004,Restricted
+59,36,Moscow 2001,Restricted
+60,25,Treasure Valley 2000,Public
+61,62,Idaho 1998-2001,Restricted
+62,26,Payette Valley 1997,Public
+63,24,Treasure Valley 1994,Public
+64,35,Pocatello 1994,Public
+65,34,Pocatello 1984,Public
+66,33,Pocatello 1975,Public
+67,19,Buhl City Area 1969,Public
+68,21,Oakley City Area 1968 | 1969,Public
+69,17,Raft River Area 1968,Public
+70,32,Pocatello 1968,Public
+71,16,Blackfoot River Area 1964 | 1966,Public
+72,20,Buhl City Area 1964,Public
+73,31,Pocatello 1963,Public
+74,22,Oakley City Area 1962 | 1964,Public
+75,18,Raft River Area 1962,Public
+76,30,Pocatello 1959,Public
+77,27,Payette Valley 1938 | 1943 | 1949,Public
+78,23,Treasure Valley 1938 | 1939,Public
