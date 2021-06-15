@@ -1,79 +1,80 @@
 sortorder,datasetid,collectionname,constraints
-1,64,McCall Outdoor Scence School 2019 (Natural Color),Restricted
-2,65,McCall Outdoor Scence School 2019 (Color Infrared),Restricted
-3,66,Rinker Rock Creek Ranch 2019 (Natural Color),Restricted
-4,67,Rinker Rock Creek Ranch 2019 (Color Infrared),Restricted
-5,68,Taylor Ranch 2019 (Natural Color),Restricted
-6,69,Taylor Ranch 2019 (Color Infrared),Restricted
-7,70,Experimental Forest 2019 (Natural Color),Restricted
-8,71,Experimental Forest 2019 (Color Infrared),Restricted
-9,59,Idaho 2019,Public
-10,49,"Lewis-Clark Valley, WA 2018",Public
-11,48,"Lewis-Clark Valley, ID 2018",Public
-12,47,"Culdesac, Lapwai, & Peck Cities 2018",Public
-13,46,Nez Perce County 2018,Public
-14,43,Moscow 2018,Public
-15,44,Kimberly Research and Extension Center - U of I 2017,Restricted
-16,10,Idaho 2017,Public
-17,57,Rinker Rock Creek Ranch 2017 (Natural Color),Restricted
-18,58,Rinker Rock Creek Ranch 2017 (Color Infrared),Restricted
-19,5,Island Park Reservoir 2016,Public
-20,50,Southeast Idaho Highways 2016,Public
-21,29,Big Canyon Creek Potential Landslide Areas 2015,Public
-22,28,Big Canyon Creek 2015,Public
-23,7,"Lewis-Clark Valley, ID 2015",Public
-24,42,Moscow 2015,Restricted
-25,51,Taylor Ranch 2015 (Natural Color),Restricted
-26,52,Taylor Ranch 2015 (Color Infrared),Restricted
-27,53,Experimental Forest 2015 (Natural Color),Restricted
-28,54,Experimental Forest 2015 (Color Infrared),Restricted
-29,55,Rinker Rock Creek Ranch 2015 (Natural Color),Restricted
-30,56,Rinker Rock Creek Ranch 2015 (Color Infrared),Restricted
-31,4,Idaho 2015,Public
-32,60,McCall 2014,Restricted
-33,61,McCall Impact Area 2014,Restricted
-34,72,Boise 2013,Public
-35,3,Idaho 2013,Public
-36,41,Moscow 2012,Restricted
-37,2,Idaho 2011,Public
-38,6,Challis National Forest 2010,Public
-39,73,Boise 2010,Public
-40,74,Boise Foothills 2010,Public
-41,40,Moscow 2010,Restricted
-42,11,Boundary County 2009,Public
-43,78,Kootenai County 2009,Public
-44,1,Idaho 2009,Public
-45,39,Moscow 2008,Restricted
-46,15,"Culdesac, Lapwai, & Peck Cities 2007",Public
-47,14,Nez Perce County 2007,Public
-48,38,Moscow 2006,Restricted
-49,76,Boise 2006,Public
-50,75,Boise Foothills 2006,Public
-51,13,Idaho Panhandle 2006,Public
-52,9,Idaho Agricultural Land 2006,Public
-53,77,Boise 2005,Public
-54,0,Idaho 2004,Public
-55,12,Boise 2003,Public
-56,8,Southeast Idaho 2003,Public
-57,37,Moscow 2003,Restricted
-58,63,Idaho 2002-2004,Restricted
-59,36,Moscow 2001,Restricted
-60,25,Treasure Valley 2000,Public
-61,62,Idaho 1998-2001,Restricted
-62,26,Payette Valley 1997,Public
-63,24,Treasure Valley 1994,Public
-64,35,Pocatello 1994,Public
-65,34,Pocatello 1984,Public
-66,33,Pocatello 1975,Public
-67,19,Buhl City Area 1969,Public
-68,21,Oakley City Area 1968 | 1969,Public
-69,17,Raft River Area 1968,Public
-70,32,Pocatello 1968,Public
-71,16,Blackfoot River Area 1964 | 1966,Public
-72,20,Buhl City Area 1964,Public
-73,31,Pocatello 1963,Public
-74,22,Oakley City Area 1962 | 1964,Public
-75,18,Raft River Area 1962,Public
-76,30,Pocatello 1959,Public
-77,27,Payette Valley 1938 | 1943 | 1949,Public
-78,23,Treasure Valley 1938 | 1939,Public
+1,79,"Lewis-Clark Valley, ID 2020",Public
+2,64,McCall Outdoor Scence School 2019 (Natural Color),Restricted
+3,65,McCall Outdoor Scence School 2019 (Color Infrared),Restricted
+4,66,Rinker Rock Creek Ranch 2019 (Natural Color),Restricted
+5,67,Rinker Rock Creek Ranch 2019 (Color Infrared),Restricted
+6,68,Taylor Ranch 2019 (Natural Color),Restricted
+7,69,Taylor Ranch 2019 (Color Infrared),Restricted
+8,70,Experimental Forest 2019 (Natural Color),Restricted
+9,71,Experimental Forest 2019 (Color Infrared),Restricted
+10,59,Idaho 2019,Public
+11,49,"Lewis-Clark Valley, WA 2018",Public
+12,48,"Lewis-Clark Valley, ID 2018",Public
+13,47,"Culdesac, Lapwai, & Peck Cities 2018",Public
+14,46,Nez Perce County 2018,Public
+15,43,Moscow 2018,Public
+16,44,Kimberly Research and Extension Center - U of I 2017,Restricted
+17,10,Idaho 2017,Public
+18,57,Rinker Rock Creek Ranch 2017 (Natural Color),Restricted
+19,58,Rinker Rock Creek Ranch 2017 (Color Infrared),Restricted
+20,5,Island Park Reservoir 2016,Public
+21,50,Southeast Idaho Highways 2016,Public
+22,29,Big Canyon Creek Potential Landslide Areas 2015,Public
+23,28,Big Canyon Creek 2015,Public
+24,7,"Lewis-Clark Valley, ID 2015",Public
+25,42,Moscow 2015,Restricted
+26,51,Taylor Ranch 2015 (Natural Color),Restricted
+27,52,Taylor Ranch 2015 (Color Infrared),Restricted
+28,53,Experimental Forest 2015 (Natural Color),Restricted
+29,54,Experimental Forest 2015 (Color Infrared),Restricted
+30,55,Rinker Rock Creek Ranch 2015 (Natural Color),Restricted
+31,56,Rinker Rock Creek Ranch 2015 (Color Infrared),Restricted
+32,4,Idaho 2015,Public
+33,60,McCall 2014,Restricted
+34,61,McCall Impact Area 2014,Restricted
+35,72,Boise 2013,Public
+36,3,Idaho 2013,Public
+37,41,Moscow 2012,Restricted
+38,2,Idaho 2011,Public
+39,6,Challis National Forest 2010,Public
+40,73,Boise 2010,Public
+41,74,Boise Foothills 2010,Public
+42,40,Moscow 2010,Restricted
+43,11,Boundary County 2009,Public
+44,78,Kootenai County 2009,Public
+45,1,Idaho 2009,Public
+46,39,Moscow 2008,Restricted
+47,15,"Culdesac, Lapwai, & Peck Cities 2007",Public
+48,14,Nez Perce County 2007,Public
+49,38,Moscow 2006,Restricted
+50,76,Boise 2006,Public
+51,75,Boise Foothills 2006,Public
+52,13,Idaho Panhandle 2006,Public
+53,9,Idaho Agricultural Land 2006,Public
+54,77,Boise 2005,Public
+55,0,Idaho 2004,Public
+56,12,Boise 2003,Public
+57,8,Southeast Idaho 2003,Public
+58,37,Moscow 2003,Restricted
+59,63,Idaho 2002-2004,Restricted
+60,36,Moscow 2001,Restricted
+61,25,Treasure Valley 2000,Public
+62,62,Idaho 1998-2001,Restricted
+63,26,Payette Valley 1997,Public
+64,24,Treasure Valley 1994,Public
+65,35,Pocatello 1994,Public
+66,34,Pocatello 1984,Public
+67,33,Pocatello 1975,Public
+68,19,Buhl City Area 1969,Public
+69,21,Oakley City Area 1968 | 1969,Public
+70,17,Raft River Area 1968,Public
+71,32,Pocatello 1968,Public
+72,16,Blackfoot River Area 1964 | 1966,Public
+73,20,Buhl City Area 1964,Public
+74,31,Pocatello 1963,Public
+75,22,Oakley City Area 1962 | 1964,Public
+76,18,Raft River Area 1962,Public
+77,30,Pocatello 1959,Public
+78,27,Payette Valley 1938 | 1943 | 1949,Public
+79,23,Treasure Valley 1938 | 1939,Public
