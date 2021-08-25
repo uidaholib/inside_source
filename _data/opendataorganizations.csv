@@ -20,3 +20,6 @@ id,name,endpoint
 18,Bannock County,https://bannock.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
 19,Bingham County,https://bingham-id.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
 20,Clearwater County,https://clearwatercounty.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+21,City of Nampa,https://nampa.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+22,City of Moscow,https://moscow-id.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson
+23,Idaho State University,https://isu.maps.arcgis.com/sharing/rest/portals/self?culture=en&f=pjson

@@ -1,0 +1,4 @@
+sortorder,datasetid,collectionname,constraints
+1,3,"1:24,000-scale",Public
+2,2,"1:100,000-scale",Public
+3,1,"1:250,000-scale",Public
