@@ -32,8 +32,8 @@ sortorder,datasetid,collectionname,constraints
 31,55,Rinker Rock Creek Ranch 2015 (Natural Color),Restricted
 32,56,Rinker Rock Creek Ranch 2015 (Color Infrared),Restricted
 33,4,Idaho 2015,Public
-34,60,McCall 2014,Public
-35,61,McCall Impact Area 2014,Public
+34,60,McCall 2014,Restricted
+35,61,McCall Impact Area 2014,Restricted
 36,72,Boise 2013,Public
 37,3,Idaho 2013,Public
 38,41,Moscow 2012,Restricted
@@ -62,20 +62,21 @@ sortorder,datasetid,collectionname,constraints
 61,36,Moscow 2001,Restricted
 62,25,Treasure Valley 2000,Public
 63,62,Idaho 1998-2001,Restricted
-64,26,Payette Valley 1997,Public
-65,24,Treasure Valley 1994,Public
-66,35,Pocatello 1994,Public
-67,34,Pocatello 1984,Public
-68,33,Pocatello 1975,Public
-69,19,Buhl City Area 1969,Public
-70,21,Oakley City Area 1968 | 1969,Public
-71,17,Raft River Area 1968,Public
-72,32,Pocatello 1968,Public
-73,16,Blackfoot River Area 1964 | 1966,Public
-74,20,Buhl City Area 1964,Public
-75,31,Pocatello 1963,Public
-76,22,Oakley City Area 1962 | 1964,Public
-77,18,Raft River Area 1962,Public
-78,30,Pocatello 1959,Public
-79,27,Payette Valley 1938 | 1943 | 1949,Public
-80,23,Treasure Valley 1938 | 1939,Public
+64,81,"Hells Canyon & Lemhi Range 1998 | 1999 | 2000 | 2001",Public
+65,26,Payette Valley 1997,Public
+66,24,Treasure Valley 1994,Public
+67,35,Pocatello 1994,Public
+68,34,Pocatello 1984,Public
+69,33,Pocatello 1975,Public
+70,19,Buhl City Area 1969,Public
+71,21,Oakley City Area 1968 | 1969,Public
+72,17,Raft River Area 1968,Public
+73,32,Pocatello 1968,Public
+74,16,Blackfoot River Area 1964 | 1966,Public
+75,20,Buhl City Area 1964,Public
+76,31,Pocatello 1963,Public
+77,22,Oakley City Area 1962 | 1964,Public
+78,18,Raft River Area 1962,Public
+79,30,Pocatello 1959,Public
+80,27,Payette Valley 1938 | 1943 | 1949,Public
+81,23,Treasure Valley 1938 | 1939,Public
