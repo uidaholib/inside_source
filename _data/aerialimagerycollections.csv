@@ -32,8 +32,8 @@ sortorder,datasetid,collectionname,constraints
 31,55,Rinker Rock Creek Ranch 2015 (Natural Color),Restricted
 32,56,Rinker Rock Creek Ranch 2015 (Color Infrared),Restricted
 33,4,Idaho 2015,Public
-34,60,McCall 2014,Restricted
-35,61,McCall Impact Area 2014,Restricted
+34,60,McCall 2014,Public
+35,61,McCall Impact Area 2014,Public
 36,72,Boise 2013,Public
 37,3,Idaho 2013,Public
 38,41,Moscow 2012,Restricted
@@ -62,21 +62,30 @@ sortorder,datasetid,collectionname,constraints
 61,36,Moscow 2001,Restricted
 62,25,Treasure Valley 2000,Public
 63,62,Idaho 1998-2001,Restricted
-64,81,"Hells Canyon & Lemhi Range 1998 | 1999 | 2000 | 2001",Public
-65,26,Payette Valley 1997,Public
-66,24,Treasure Valley 1994,Public
-67,35,Pocatello 1994,Public
-68,34,Pocatello 1984,Public
-69,33,Pocatello 1975,Public
-70,19,Buhl City Area 1969,Public
-71,21,Oakley City Area 1968 | 1969,Public
-72,17,Raft River Area 1968,Public
-73,32,Pocatello 1968,Public
-74,16,Blackfoot River Area 1964 | 1966,Public
-75,20,Buhl City Area 1964,Public
-76,31,Pocatello 1963,Public
-77,22,Oakley City Area 1962 | 1964,Public
-78,18,Raft River Area 1962,Public
-79,30,Pocatello 1959,Public
-80,27,Payette Valley 1938 | 1943 | 1949,Public
-81,23,Treasure Valley 1938 | 1939,Public
+64,81,Hells Canyon & Lemhi Range 1998 | 1999 | 2000 | 2001,Public
+65,82,Central Idaho & Caribou NF 1997 | 1998 | 1999 | 2000,Public
+66,83,Island Park & Central Idaho Mtns. 1997 | 1998 | 1999,Public
+67,84,Western Idaho 1997 | 1998,Public
+68,26,Payette Valley 1997,Public
+69,86,ID/WA Border (Southern Portion) 1996,Public
+70,24,Treasure Valley 1994,Public
+71,35,Pocatello 1994,Public
+72,85,ID/UT Border at Bear River Range 1992 | 1997,Public
+73,87,ID/MT Border 1992 | 1995,Public
+74,88,ID/WY/OR/NV Border 1992 | 1994,Public
+75,89,"Portneuf Range; Malad City, ID 1992 | 1993",Public
+76,90,Western & Southeast Idaho 1992,Public
+77,34,Pocatello 1984,Public
+78,33,Pocatello 1975,Public
+79,19,Buhl City Area 1969,Public
+80,21,Oakley City Area 1968 | 1969,Public
+81,17,Raft River Area 1968,Public
+82,32,Pocatello 1968,Public
+83,16,Blackfoot River Area 1964 | 1966,Public
+84,20,Buhl City Area 1964,Public
+85,31,Pocatello 1963,Public
+86,22,Oakley City Area 1962 | 1964,Public
+87,18,Raft River Area 1962,Public
+88,30,Pocatello 1959,Public
+89,27,Payette Valley 1938 | 1943 | 1949,Public
+90,23,Treasure Valley 1938 | 1939,Public
