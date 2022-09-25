@@ -1,101 +1,105 @@
 sortorder,datasetid,collectionname,constraints
-1,79,"Lewis-Clark Valley, ID 2020",Public
-2,80,Teton County 2019,Public
-3,64,McCall Outdoor Scence School 2019 (Natural Color),Restricted
-4,65,McCall Outdoor Scence School 2019 (Color Infrared),Restricted
-5,66,Rinker Rock Creek Ranch 2019 (Natural Color),Restricted
-6,67,Rinker Rock Creek Ranch 2019 (Color Infrared),Restricted
-7,68,Taylor Ranch 2019 (Natural Color),Restricted
-8,69,Taylor Ranch 2019 (Color Infrared),Restricted
-9,70,Experimental Forest 2019 (Natural Color),Restricted
-10,71,Experimental Forest 2019 (Color Infrared),Restricted
-11,92,McCall Impact Area South 2019,Public
-12,91,McCall Impact Area North 2019,Public
-13,59,Idaho 2019,Public
-14,49,"Lewis-Clark Valley, WA 2018",Public
-15,48,"Lewis-Clark Valley, ID 2018",Public
-16,47,"Culdesac, Lapwai, & Peck Cities 2018",Public
-17,46,Nez Perce County 2018,Public
-18,43,Moscow 2018,Public
-19,44,Kimberly Research and Extension Center - U of I 2017,Restricted
-20,10,Idaho 2017,Public
-21,57,Rinker Rock Creek Ranch 2017 (Natural Color),Restricted
-22,58,Rinker Rock Creek Ranch 2017 (Color Infrared),Restricted
-23,5,Island Park Reservoir 2016,Public
-24,50,Southeast Idaho Highways 2016,Public
-25,98,Cedar Gulch 2015,Public
-26,29,Big Canyon Creek Potential Landslide Areas 2015,Public
-27,28,Big Canyon Creek 2015,Public
-28,7,"Lewis-Clark Valley, ID 2015",Public
-29,42,Moscow 2015,Restricted
-30,51,Taylor Ranch 2015 (Natural Color),Restricted
-31,52,Taylor Ranch 2015 (Color Infrared),Restricted
-32,53,Experimental Forest 2015 (Natural Color),Restricted
-33,54,Experimental Forest 2015 (Color Infrared),Restricted
-34,55,Rinker Rock Creek Ranch 2015 (Natural Color),Restricted
-35,56,Rinker Rock Creek Ranch 2015 (Color Infrared),Restricted
-36,4,Idaho 2015,Public
-37,97,Cedar Gulch 2014,Public
-38,99,Magic Reservoir 2014,Public
-39,95,Rocky Canyon (Winter) 2014,Public
-40,96,Rocky Canyon (Summer) 2014,Public
-41,60,McCall 2014,Public
-42,61,McCall Impact Area 2014,Public
-43,100,Magic Reservoir 2013,Public
-44,72,Boise 2013,Public
-45,3,Idaho 2013,Public
-46,41,Moscow 2012,Restricted
-47,2,Idaho 2011,Public
-48,6,Challis National Forest 2010,Public
-49,73,Boise 2010,Public
-50,74,Boise Foothills 2010,Public
-51,40,Moscow 2010,Restricted
-52,94,McCall Impact Area South 2019,Public
-53,93,McCall Impact Area North 2019,Public
-54,11,Boundary County 2009,Public
-55,78,Kootenai County 2009,Public
-56,1,Idaho 2009,Public
-57,39,Moscow 2008,Restricted
-58,15,"Culdesac, Lapwai, & Peck Cities 2007",Public
-59,14,Nez Perce County 2007,Public
-60,38,Moscow 2006,Restricted
-61,76,Boise 2006,Public
-62,75,Boise Foothills 2006,Public
-63,13,Idaho Panhandle 2006,Public
-64,9,Idaho Agricultural Land 2006,Public
-65,77,Boise 2005,Public
-66,0,Idaho 2004,Public
-67,12,Boise 2003,Public
-68,8,Southeast Idaho 2003,Public
-69,37,Moscow 2003,Restricted
-70,63,Idaho 2002-2004,Restricted
-71,36,Moscow 2001,Restricted
-72,25,Treasure Valley 2000,Public
-73,62,Idaho 1998-2001,Restricted
-74,81,Hells Canyon & Lemhi Range 1998 | 1999 | 2000 | 2001,Public
-75,82,Central Idaho & Caribou NF 1997 | 1998 | 1999 | 2000,Public
-76,83,Island Park & Central Idaho Mtns. 1997 | 1998 | 1999,Public
-77,84,Western Idaho 1997 | 1998,Public
-78,26,Payette Valley 1997,Public
-79,86,ID/WA Border (Southern Portion) 1996,Public
-80,24,Treasure Valley 1994,Public
-81,35,Pocatello 1994,Public
-82,85,ID/UT Border at Bear River Range 1992 | 1997,Public
-83,87,ID/MT Border 1992 | 1995,Public
-84,88,ID/WY/OR/NV Border 1992 | 1994,Public
-85,89,"Portneuf Range; Malad City, ID 1992 | 1993",Public
-86,90,Western & Southeast Idaho 1992,Public
-87,34,Pocatello 1984,Public
-88,33,Pocatello 1975,Public
-89,19,Buhl City Area 1969,Public
-90,21,Oakley City Area 1968 | 1969,Public
-91,17,Raft River Area 1968,Public
-92,32,Pocatello 1968,Public
-93,16,Blackfoot River Area 1964 | 1966,Public
-94,20,Buhl City Area 1964,Public
-95,31,Pocatello 1963,Public
-96,22,Oakley City Area 1962 | 1964,Public
-97,18,Raft River Area 1962,Public
-98,30,Pocatello 1959,Public
-99,27,Payette Valley 1938 | 1943 | 1949,Public
-100,23,Treasure Valley 1938 | 1939,Public
+1,105,Soda Fire Natural Area 2021,Public
+2,107,Idaho 2021,Public
+3,104,Soda Fire Natural Area 2020,Public
+4,79,"Lewis-Clark Valley, ID 2020",Public
+5,103,Soda Fire Natural Area 2019,Public
+6,80,Teton County 2019,Public
+7,64,McCall Outdoor Scence School 2019 (Natural Color),Restricted
+8,65,McCall Outdoor Scence School 2019 (Color Infrared),Restricted
+9,66,Rinker Rock Creek Ranch 2019 (Natural Color),Restricted
+10,67,Rinker Rock Creek Ranch 2019 (Color Infrared),Restricted
+11,68,Taylor Ranch 2019 (Natural Color),Restricted
+12,69,Taylor Ranch 2019 (Color Infrared),Restricted
+13,70,Experimental Forest 2019 (Natural Color),Restricted
+14,71,Experimental Forest 2019 (Color Infrared),Restricted
+15,92,McCall Impact Area South 2019,Public
+16,91,McCall Impact Area North 2019,Public
+17,59,Idaho 2019,Public
+18,49,"Lewis-Clark Valley, WA 2018",Public
+19,48,"Lewis-Clark Valley, ID 2018",Public
+20,47,"Culdesac, Lapwai, & Peck Cities 2018",Public
+21,46,Nez Perce County 2018,Public
+22,43,Moscow 2018,Public
+23,44,Kimberly Research and Extension Center - U of I 2017,Restricted
+24,10,Idaho 2017,Public
+25,57,Rinker Rock Creek Ranch 2017 (Natural Color),Restricted
+26,58,Rinker Rock Creek Ranch 2017 (Color Infrared),Restricted
+27,5,Island Park Reservoir 2016,Public
+28,50,Southeast Idaho Highways 2016,Public
+29,98,Cedar Gulch 2015,Public
+30,29,Big Canyon Creek Potential Landslide Areas 2015,Public
+31,28,Big Canyon Creek 2015,Public
+32,7,"Lewis-Clark Valley, ID 2015",Public
+33,42,Moscow 2015,Restricted
+34,51,Taylor Ranch 2015 (Natural Color),Restricted
+35,52,Taylor Ranch 2015 (Color Infrared),Restricted
+36,53,Experimental Forest 2015 (Natural Color),Restricted
+37,54,Experimental Forest 2015 (Color Infrared),Restricted
+38,55,Rinker Rock Creek Ranch 2015 (Natural Color),Restricted
+39,56,Rinker Rock Creek Ranch 2015 (Color Infrared),Restricted
+40,4,Idaho 2015,Public
+41,97,Cedar Gulch 2014,Public
+42,99,Magic Reservoir 2014,Public
+43,95,Rocky Canyon (Winter) 2014,Public
+44,96,Rocky Canyon (Summer) 2014,Public
+45,60,McCall 2014,Public
+46,61,McCall Impact Area 2014,Public
+47,100,Magic Reservoir 2013,Public
+48,72,Boise 2013,Public
+49,3,Idaho 2013,Public
+50,41,Moscow 2012,Restricted
+51,2,Idaho 2011,Public
+52,6,Challis National Forest 2010,Public
+53,73,Boise 2010,Public
+54,74,Boise Foothills 2010,Public
+55,40,Moscow 2010,Restricted
+56,94,McCall Impact Area South 2019,Public
+57,93,McCall Impact Area North 2019,Public
+58,11,Boundary County 2009,Public
+59,78,Kootenai County 2009,Public
+60,1,Idaho 2009,Public
+61,39,Moscow 2008,Restricted
+62,15,"Culdesac, Lapwai, & Peck Cities 2007",Public
+63,14,Nez Perce County 2007,Public
+64,38,Moscow 2006,Restricted
+65,76,Boise 2006,Public
+66,75,Boise Foothills 2006,Public
+67,13,Idaho Panhandle 2006,Public
+68,9,Idaho Agricultural Land 2006,Public
+69,77,Boise 2005,Public
+70,0,Idaho 2004,Public
+71,12,Boise 2003,Public
+72,8,Southeast Idaho 2003,Public
+73,37,Moscow 2003,Restricted
+74,63,Idaho 2002-2004,Restricted
+75,36,Moscow 2001,Restricted
+76,25,Treasure Valley 2000,Public
+77,62,Idaho 1998-2001,Restricted
+78,81,Hells Canyon & Lemhi Range 1998 | 1999 | 2000 | 2001,Public
+79,82,Central Idaho & Caribou NF 1997 | 1998 | 1999 | 2000,Public
+80,83,Island Park & Central Idaho Mtns. 1997 | 1998 | 1999,Public
+81,84,Western Idaho 1997 | 1998,Public
+82,26,Payette Valley 1997,Public
+83,86,ID/WA Border (Southern Portion) 1996,Public
+84,24,Treasure Valley 1994,Public
+85,35,Pocatello 1994,Public
+86,85,ID/UT Border at Bear River Range 1992 | 1997,Public
+87,87,ID/MT Border 1992 | 1995,Public
+88,88,ID/WY/OR/NV Border 1992 | 1994,Public
+89,89,"Portneuf Range; Malad City, ID 1992 | 1993",Public
+90,90,Western & Southeast Idaho 1992,Public
+91,34,Pocatello 1984,Public
+92,33,Pocatello 1975,Public
+93,19,Buhl City Area 1969,Public
+94,21,Oakley City Area 1968 | 1969,Public
+95,17,Raft River Area 1968,Public
+96,32,Pocatello 1968,Public
+97,16,Blackfoot River Area 1964 | 1966,Public
+98,20,Buhl City Area 1964,Public
+99,31,Pocatello 1963,Public
+100,22,Oakley City Area 1962 | 1964,Public
+101,18,Raft River Area 1962,Public
+102,30,Pocatello 1959,Public
+103,27,Payette Valley 1938 | 1943 | 1949,Public
+104,23,Treasure Valley 1938 | 1939,Public
