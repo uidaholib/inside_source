@@ -1,8 +1,8 @@
-<footer class="bg-secondary pt-4 container-fluid {% unless page.layout=='map' %}mt-3{% endunless %}">
+<footer class="bg-dark pt-4 container-fluid {% unless page.layout=='map' %}mt-3{% endunless %}">
 
     <div class="row border-bottom border-white pb-4 mb-2">
 
-        <div class="col-md-7  px-4 mt-2">
+        <div class="col-md-7 px-4 mt-2">
 
             <h4><a href="{{ '/' | absolute_url }}" class="text-white display-3">{{ site.title | upcase }}</a></h4>
             <p class="text-white"><small>{{ site.description }}</small></p>
@@ -31,7 +31,7 @@
         </div>
 
         <div class="col-md-5 mt-2 text-center ">
-            <h5>Support and hosting provided by: </h5>
+            <h5 class="text-white">Support and hosting provided by: </h5>
             <p class="text-center my-4">
                 <a href="https://www.lib.uidaho.edu/" class="btn btn-light" target="_blank" rel="noopener">
                     <img class="img-fluid" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library">
@@ -47,11 +47,11 @@
     </div>
 
     <div class="col-md-12 text-center pt-3 pb-1">
-        <p class="text-dark">Last updated {{ site.time | date: '%Y' }}</p>
-        <p class="text-dark mt-2" id="footer-credits">
+        <p class="text-white">Last updated {{ site.time | date: '%Y' }}</p>
+        <p class="text-white mt-2" id="footer-credits">
             <small><em>built with</em>
                 <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
-                    <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder logo" >
+                    <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder" >
                 </a>
             </small>
         </p>
