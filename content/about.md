@@ -6,11 +6,17 @@ permalink: /about.html
 
 # About INSIDE Idaho
 
-{% include support.html %}
-
 INSIDE Idaho is the geospatial data clearinghouse for the State of Idaho recognized by the <a href="https://ita.idaho.gov/committees/#igc" target="_blank" rel="noopener">Idaho Geospatial Council - Executive Committee</a>. Organizations in Idaho are encouraged to share publicly-available geospatial information as outlined in the <a href="https://ita.idaho.gov/psg/g360.pdf" target="_blank" rel="noopener">Idaho Technology Authority (ITA) Guideline G360 Statewide Geospatial Clearinghouse (INSIDE Idaho) Publisher Guidelines</a>.
 
 INSIDE aims to encourage and assist in the discovery and use of geospatial information, to encourage the widespread sharing of geospatial information, to eliminate the creation of redundant data sets, and to further build a digital geospatial information inventory for Idaho through the development of applications and services.
+
+<div class="card card-body mb-4">
+<div class="row align-items-center">
+<div class="col-12"><h2 class="h5 mb-4">Support and hosting provided by:</h2></div>
+<div class="col-md-6 text-center"><a href="https://www.lib.uidaho.edu/" target="_blank" rel="noopener"><img class="img-fluid" style="max-height:100px" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library"></a></div>
+<div class="col-md-6 text-center"><a href="https://hpc.uidaho.edu/" target="_blank" rel="noopener"><img class="img-fluid" style="max-height:150px" src="https://www.lib.uidaho.edu/media/images/rcds_logo_stacked.svg" alt="Research Computing and Data Services"></a></div>
+</div>
+</div>
 
 ## Our Background
 
